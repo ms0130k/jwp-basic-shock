@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import core.db.DataBase;
 
 @WebServlet("/user/list")
-public class ListUserServlet extends HttpServlet {
+public class ServletUserList extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     @Override

@@ -16,9 +16,9 @@ import org.slf4j.LoggerFactory;
 import core.db.DataBase;
 
 @WebServlet("/user/create")
-public class CreateUserServlet extends HttpServlet {
+public class ServletUserCreation extends HttpServlet {
     private static final long serialVersionUID = 1L;
-    private static final Logger log = LoggerFactory.getLogger(CreateUserServlet.class);
+    private static final Logger log = LoggerFactory.getLogger(ServletUserCreation.class);
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

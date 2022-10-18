@@ -15,7 +15,7 @@ import core.db.DataBase;
 import next.model.User;
 
 @WebServlet("/user/update")
-public class UpdateUserServlet extends HttpServlet {
+public class ServletUserUpdate extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     @Override
